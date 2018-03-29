@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Guide do
+describe 'Guide' do
   it 'can be created' do
     g = Guide.create(title: 'Some Title', content: 'Some content')
     expect(g).to be_valid
